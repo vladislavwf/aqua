@@ -115,6 +115,7 @@ body{
     font-size: 0.8rem;
     display: flex;
     justify-content: center;
+    background-color: rgb(246,245,243);
 }
 .input{
     margin-top: 15px;
@@ -122,16 +123,24 @@ body{
 }
 .assortment__input{
     width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border: 1px solid rgba(0, 0 , 0, 0.2);
+    color:rgba(0, 0 , 0, 0.5);
+    font-family: inherit;
+   
+}
+.input__select{
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
     appearance: none!important;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    border: 1px solid rgba(0, 0 , 0, 0.2);
-    color:rgba(0, 0 , 0, 0.5);
-    font-family: inherit;
+    background: url(../img/arrow.svg) no-repeat 95%  center;
+    background-color: #ffffff;
+    background-size: 0.8rem;
+    cursor: pointer;
 }
 .assortment__input::placeholder{
     color:rgba(0, 0 , 0, 0.5);
@@ -146,4 +155,15 @@ body{
     background-color: #000000;
     color: #ffffff;
     font-family: arial;
+}
+.form-label-main::after{
+    content: "*";
+    color: #f33;
+    font-size: inherit;
+}
+.form-label{
+    margin-bottom: 10px;
+}
+.assortment__form{
+    margin-top: 50px;
 }

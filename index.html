@@ -41,18 +41,18 @@
                 </div>
     </header>
         <div class="assortment">
-            <form action="">
+            <form class="assortment__form" action="">
                 <div class="input">
-                    <div class="form-label">Телефон</div>
+                    <div class="form-label form-label-main">Телефон</div>
                     <input class="assortment__input" type="tel" placeholder="+7 (___) ___ -__-__">
                     <div class="input">
-                        <div class="form-label">Ваше имя</div>
+                        <div class="form-label form-label-main">Ваше имя</div>
                         <input class="assortment__input" type="text" placeholder="Иван Петров">
                     </div>
                     <div class="input">
                         <div class="form-label">Площадь дома</div>
-                        <select class="assortment__input">
-                            <option disabled selected>Выберите из списка</option>
+                        <select class="assortment__input input__select">
+                            <option disabled selected hidden>Выберите из списка</option>
                             <option value="0-150кв.м.">0-150кв.м.</option>
                             <option value="150-250кв.м.">150-250кв.м.</option>
                             <option value="от 250кв.м..">от 250кв.м.</option>
@@ -64,8 +64,8 @@
                     </div>
                     <div class="input">
                         <div class="form-label">Материал дома</div>
-                        <select class="assortment__input">
-                            <option disabled selected></option>
+                        <select class="assortment__input input__select">
+                            <option disabled selected hidden>Материал дома</option>
                             <option value="Дерево">Дерево</option>
                             <option value="Кирпич">Кирпич</option>
                             <option value="Каркасный">Каркасный</option>
@@ -74,9 +74,9 @@
                         </select>
                     </div>
                     <div class="input">
-                        <div class="form-label">Материал дома</div>
-                        <select class="assortment__input">
-                            <option disabled selected>Вид топлива</option>
+                        <div class="form-label">Вид топлива</div>
+                        <select class="assortment__input input__select">
+                            <option disabled selected hidden >Вид топлива</option>
                             <option value="Природный газ">Природный газ</option>
                             <option value="Сжиженный газ">Сжиженный газ</option>
                             <option value="Уголь">Уголь</option>
@@ -85,8 +85,8 @@
                     </div>
                     <div class="input">
                         <div class="form-label">Способ отопления</div>
-                        <select class="assortment__input">
-                            <option disabled selected>Вид топлива</option>
+                        <select class="assortment__input input__select">
+                            <option disabled selected hidden>Способ отопления</option>
                             <option value="Радиаторы">Радиаторы</option>
                             <option value="Теплый пол">Теплый пол</option>
                             <option value="Комбинированный">Комбинированный</option>
@@ -99,6 +99,6 @@
             </div>
         </div>
     </div>
-    
+
 </body>
 </html>
