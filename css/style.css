@@ -303,18 +303,22 @@ body{
 .footer__bot{
     max-width: 940px;
     margin: 0 auto;
-    display: flex;
-    justify-content: flex-start;
     padding-top: 15px;
+    position: relative;
+    min-height: 85px;
 }
 .footer__bot-logo{
     width: 84px;
     height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 15px;
 }
 .footer__bot-copy{
-    margin: 0 auto;
     font-size: 0.8rem;
     opacity: 0.6;
+    text-align: center;
 }
 .footer-contacts__header{
     font-size: 0.9rem;
